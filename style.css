@@ -2,12 +2,17 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 #logo {
     width: 50px;
     height: 50px;
     margin: 4px 0px;
 }
+body{
+    background: antiquewhite;
+}
+
 
 header {
     border-bottom: 0.3px solid #000000;
@@ -82,7 +87,7 @@ header {
     font-size: 35px;
 }
 
-#saiba-mais {
+.saiba-mais {
     font-size: 20px;
     color: antiquewhite;
     background-color: brown;
@@ -94,7 +99,7 @@ header {
     transition: 0.3s;
 }
 
-#saiba-mais:hover{
+.saiba-mais:hover{
     color: brown;
     background-color: antiquewhite;
     transition: 0.3s;
@@ -110,14 +115,14 @@ header {
 }
 
 #catalogo {
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     color:antiquewhite;
     
-    background: linear-gradient(68.15deg, #6c3c0c 80%, #874b0f 20%) 
-}
+    background: linear-gradient( #b7410e 16.49%, #6c3c0c 84.61%);
+} 
 
 .card {
     width: 180px;
@@ -126,6 +131,7 @@ header {
     color:#000000;
     background-color:antiquewhite;
     padding: 15px;
+    transition: 0.3s;
 }
 
 
@@ -142,5 +148,19 @@ header {
     
 }
 
+.card:hover {
+    transform: scale(1.08);
+    transition: 0.3s;
+}
+
+footer{
+
+    display: flex;
+}
+
+footer h2 {
+    margin: 25px auto;
+
+}
 
 
